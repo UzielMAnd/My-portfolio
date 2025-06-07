@@ -1,0 +1,295 @@
+{
+  "language": "ES",
+  "meta": {
+    "title": "Portafolio de Uziel Moreno Andrade - Ingeniero en Sistemas Computacionales",
+    "description": "Portafolio de Uziel Moreno Andrade, desarrollador de software con conocimientos en tecnologías web modernas"
+  },
+  "back2TopButton": "Volver arriba",
+  "shareButton": {
+    "btnTitle": "Copiar enlace",
+    "copyToast": "¡Enlace copiado!"
+  },
+  "aboutMe": {
+    "title": "Portafolio de Uziel Moreno Andrade - Desarrollador de software",
+    "subtitle": "Sobre mí",
+    "description": "Soy Uziel Moreno Andrade, egresado de la licenciatura en Ingeniería en Sistemas Computacionales en la IBERO Puebla. Me interesan las tecnologías de la información, aprender sobre su funcionamiento, las aplicaciones que tienen en la vida cotidiana y en situaciones específicas, así como su proceso de desarrollo. Me apasiona el <strong>desarrollo web, de aplicaciones móviles, de videojuegos y el diseño UI/UX</strong>.",
+    "downloadButton": "Descargar CV"
+  },
+  "footer": {
+    "title": "Contacto",
+    "menu": {
+      "school": "Cuenta escolar",
+      "personal": "Cuenta personal"
+    }
+  },
+  "navbar": {
+    "portfolio": "Mi portafolio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Tecnologías usadas",
+    "button": "Probar aplicación",
+    "items": [
+      {
+        "id": 0,
+        "title": "Milestone bot",
+        "description": "Este bot para Discord tiene como objetivo mostrar los suscriptores de un canal de YouTube, la cantidad restante de suscriptores para una determinada meta y el crecimiento o decrecimiento del canal respecto a una fecha anterior.",
+        "technologies": [
+          {
+            "name": "Python",
+            "icon": "/proyectos/tecnologias/Python.svg",
+            "color": "#3776AB"
+          },
+          {
+            "name": "YouTube API",
+            "icon": "/proyectos/tecnologias/YT.svg",
+            "color": "#FF0000"
+          },
+          {
+            "name": "AWS EC2",
+            "icon": "/proyectos/tecnologias/Amazon_EC2.svg",
+            "color": "#FF9900"
+          },
+          {
+            "name": "Postman",
+            "icon": "/proyectos/tecnologias/Postman.svg",
+            "color": "#FF6C37"
+          }
+        ],
+        "link": null,
+        "image": "/proyectos/capturas/Discord_bot.webp",
+        "imageAlt": "Captura de pantalla del proyecto: Milestone bot"
+      },
+      {
+        "id": 1,
+        "title": "Extensión de Google Chrome",
+        "description": "Permite acceder de forma rápida a una determinada lista de reproducción de YouTube y reproducir sus videos en cualquier página web. Dichos videos son mostrados de forma aleatoria al iniciar la extensión.",
+        "technologies": [
+          {
+            "name": "YouTube API",
+            "icon": "/proyectos/tecnologias/YT.svg",
+            "color": "#FF0000"
+          },
+          {
+            "name": "HTML",
+            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "color": "#E34F26"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/proyectos/tecnologias/JS.svg",
+            "color": "#F7DF1E"
+          },
+          {
+            "name": "CSS",
+            "icon": "/proyectos/tecnologias/CSS.svg",
+            "color": "#663399"
+          },
+          {
+            "name": "Postman",
+            "icon": "/proyectos/tecnologias/Postman.svg",
+            "color": "#FF6C37"
+          }
+        ],
+        "link": null,
+        "image": "/proyectos/capturas/Chrome_extention.webp",
+        "imageAlt": "Captura de pantalla del proyecto: extensión de Google Chrome"
+      },
+      {
+        "id": 2,
+        "title": "Test de COVID-19",
+        "description": "Le da conocer al usuario de una forma rápida si existe la posibilidad de que esté infectado por COVID-19 mediante la introducción de algunos datos. Adicional a esto, se proporcionan datos sobre los contagios, fallecimientos y recuperaciones en México y sus estados",
+        "technologies": [
+          {
+            "name": "Python",
+            "icon": "/proyectos/tecnologias/Python.svg",
+            "color": "#3776AB"
+          },
+          {
+            "name": "Django",
+            "icon": "/proyectos/tecnologias/Django.svg",
+            "color": "#092E20"
+          },
+          {
+            "name": "HTML",
+            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "color": "#E34F26"
+          },
+          {
+            "name": "CSS",
+            "icon": "/proyectos/tecnologias/CSS.svg",
+            "color": "#663399"
+          },
+          {
+            "name": "SQLite",
+            "icon": "/proyectos/tecnologias/SQLite.svg",
+            "color": "#003B57"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "color": "#7952B3"
+          },
+          {
+            "name": "Postman",
+            "icon": "/proyectos/tecnologias/Postman.svg",
+            "color": "#FF6C37"
+          }
+        ],
+        "link": null,
+        "image": "/proyectos/capturas/COVID_app.webp",
+        "imageAlt": "Captura de pantalla del proyecto: test de COVID-19"
+      },
+      {
+        "id": 3,
+        "title": "iBank",
+        "description": "Participé en el desarrollo de un sistema de banca en línea donde es posible crear cuentas y realizar depositos, retiros, transferencias a otras cuentas y consultar el historial de las acciones.",
+        "technologies": [
+          {
+            "name": "Python",
+            "icon": "/proyectos/tecnologias/Python.svg",
+            "color": "#3776AB"
+          },
+          {
+            "name": "Django",
+            "icon": "/proyectos/tecnologias/Django.svg",
+            "color": "#092E20"
+          },
+          {
+            "name": "Django REST Framework",
+            "icon": "/proyectos/tecnologias/Django_REST.svg",
+            "color": "#000000"
+          },
+          {
+            "name": "HTML",
+            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "color": "#E34F26"
+          },
+          {
+            "name": "Redis",
+            "icon": "/proyectos/tecnologias/Redis.svg",
+            "color": "#FF4438"
+          },
+          {
+            "name": "Celery",
+            "icon": "/proyectos/tecnologias/Celery.svg",
+            "color": "#37814A"
+          }
+        ],
+        "link": null,
+        "image": "/proyectos/capturas/iBank.webp",
+        "imageAlt": "Captura de pantalla del proyecto: iBank"
+      },
+      {
+        "id": 4,
+        "title": "Weather App",
+        "description": "Es una aplicación web que proporciona información en tres idiomas diferentes sobre el clima actual de una ciudad, esto es posible mediante el uso de la API de OpenWeather.",
+        "technologies": [
+          {
+            "name": "React",
+            "icon": "/proyectos/tecnologias/React.svg",
+            "color": "#61DAFB"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/proyectos/tecnologias/JS.svg",
+            "color": "#F7DF1E"
+          },
+          {
+            "name": "HTML",
+            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "color": "#E34F26"
+          },
+          {
+            "name": "CSS",
+            "icon": "/proyectos/tecnologias/CSS.svg",
+            "color": "#663399"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "color": "#7952B3"
+          },
+          {
+            "name": "Vite",
+            "icon": "/proyectos/tecnologias/Vite.svg",
+            "color": "#646CFF"
+          },
+          {
+            "name": "Netlify",
+            "icon": "/proyectos/tecnologias/Netlify.svg",
+            "color": "#00C7B7"
+          }
+        ],
+        "link": "https://aplicacion-clima-hoy.netlify.app/",
+        "image": "/proyectos/capturas/WeatherApp_ES.webp",
+        "imageAlt": "Captura de pantalla del proyecto: Weather App"
+      },
+      {
+        "id": 5,
+        "title": "Portafolio",
+        "description": "Una página web donde podrás conocer un poco más sobre mí, mis proyectos y formas de contacto. Es donde te encuentras en este momento.",
+        "technologies": [
+          {
+            "name": "Vue.js",
+            "icon": "/proyectos/tecnologias/VueJS.svg",
+            "color": "#4FC08D"
+          },
+          {
+            "name": "HTML",
+            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "color": "#E34F26"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/proyectos/tecnologias/JS.svg",
+            "color": "#F7DF1E"
+          },
+          {
+            "name": "CSS",
+            "icon": "/proyectos/tecnologias/CSS.svg",
+            "color": "#663399"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "color": "#7952B3"
+          },
+          {
+            "name": "Vite",
+            "icon": "/proyectos/tecnologias/Vite.svg",
+            "color": "#646CFF"
+          }
+        ],
+        "link": null,
+        "image": "/proyectos/capturas/Portfolio_ES.webp",
+        "imageAlt": "Captura de pantalla del proyecto: portafolio"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "skillsArray": [
+      {
+        "title": "Lenguajes",
+        "items": ["Python", "Java", "C++", "C#", "C", "HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Frameworks",
+        "items": ["Django", "Flask", "Angular", "Vue.js"]
+      },
+      {
+        "title": "Idiomas",
+        "items": ["Español - Nativo", "Inglés - B2 (FCE)", "Francés - B1"]
+      },
+      {
+        "title": "Otros",
+        "items": ["GitHub", "Adobe XD", "Postman", "Unity"]
+      }
+    ]
+  }
+}
