@@ -41,27 +41,27 @@
         "technologies": [
           {
             "name": "Python",
-            "icon": "/proyectos/tecnologias/Python.svg",
+            "icon": "proyectos/tecnologias/Python.svg",
             "color": "#3776AB"
           },
           {
             "name": "YouTube API",
-            "icon": "/proyectos/tecnologias/YT.svg",
+            "icon": "proyectos/tecnologias/YT.svg",
             "color": "#FF0000"
           },
           {
             "name": "AWS EC2",
-            "icon": "/proyectos/tecnologias/Amazon_EC2.svg",
+            "icon": "proyectos/tecnologias/Amazon_EC2.svg",
             "color": "#FF9900"
           },
           {
             "name": "Postman",
-            "icon": "/proyectos/tecnologias/Postman.svg",
+            "icon": "proyectos/tecnologias/Postman.svg",
             "color": "#FF6C37"
           }
         ],
         "link": null,
-        "image": "/proyectos/capturas/Discord_bot.webp",
+        "image": "proyectos/capturas/Discord_bot.webp",
         "imageAlt": "Captura de pantalla del proyecto: Milestone bot"
       },
       {
@@ -71,32 +71,32 @@
         "technologies": [
           {
             "name": "YouTube API",
-            "icon": "/proyectos/tecnologias/YT.svg",
+            "icon": "proyectos/tecnologias/YT.svg",
             "color": "#FF0000"
           },
           {
             "name": "HTML",
-            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "icon": "proyectos/tecnologias/HTML5.svg",
             "color": "#E34F26"
           },
           {
             "name": "JavaScript",
-            "icon": "/proyectos/tecnologias/JS.svg",
+            "icon": "proyectos/tecnologias/JS.svg",
             "color": "#F7DF1E"
           },
           {
             "name": "CSS",
-            "icon": "/proyectos/tecnologias/CSS.svg",
+            "icon": "proyectos/tecnologias/CSS.svg",
             "color": "#663399"
           },
           {
             "name": "Postman",
-            "icon": "/proyectos/tecnologias/Postman.svg",
+            "icon": "proyectos/tecnologias/Postman.svg",
             "color": "#FF6C37"
           }
         ],
         "link": null,
-        "image": "/proyectos/capturas/Chrome_extention.webp",
+        "image": "proyectos/capturas/Chrome_extention.webp",
         "imageAlt": "Captura de pantalla del proyecto: extensión de Google Chrome"
       },
       {
@@ -106,42 +106,42 @@
         "technologies": [
           {
             "name": "Python",
-            "icon": "/proyectos/tecnologias/Python.svg",
+            "icon": "proyectos/tecnologias/Python.svg",
             "color": "#3776AB"
           },
           {
             "name": "Django",
-            "icon": "/proyectos/tecnologias/Django.svg",
+            "icon": "proyectos/tecnologias/Django.svg",
             "color": "#092E20"
           },
           {
             "name": "HTML",
-            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "icon": "proyectos/tecnologias/HTML5.svg",
             "color": "#E34F26"
           },
           {
             "name": "CSS",
-            "icon": "/proyectos/tecnologias/CSS.svg",
+            "icon": "proyectos/tecnologias/CSS.svg",
             "color": "#663399"
           },
           {
             "name": "SQLite",
-            "icon": "/proyectos/tecnologias/SQLite.svg",
+            "icon": "proyectos/tecnologias/SQLite.svg",
             "color": "#003B57"
           },
           {
             "name": "Bootstrap",
-            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "icon": "proyectos/tecnologias/Bootstrap.svg",
             "color": "#7952B3"
           },
           {
             "name": "Postman",
-            "icon": "/proyectos/tecnologias/Postman.svg",
+            "icon": "proyectos/tecnologias/Postman.svg",
             "color": "#FF6C37"
           }
         ],
         "link": null,
-        "image": "/proyectos/capturas/COVID_app.webp",
+        "image": "proyectos/capturas/COVID_app.webp",
         "imageAlt": "Captura de pantalla del proyecto: test de COVID-19"
       },
       {
@@ -151,37 +151,37 @@
         "technologies": [
           {
             "name": "Python",
-            "icon": "/proyectos/tecnologias/Python.svg",
+            "icon": "proyectos/tecnologias/Python.svg",
             "color": "#3776AB"
           },
           {
             "name": "Django",
-            "icon": "/proyectos/tecnologias/Django.svg",
+            "icon": "proyectos/tecnologias/Django.svg",
             "color": "#092E20"
           },
           {
             "name": "Django REST Framework",
-            "icon": "/proyectos/tecnologias/Django_REST.svg",
+            "icon": "proyectos/tecnologias/Django_REST.svg",
             "color": "#000000"
           },
           {
             "name": "HTML",
-            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "icon": "proyectos/tecnologias/HTML5.svg",
             "color": "#E34F26"
           },
           {
             "name": "Redis",
-            "icon": "/proyectos/tecnologias/Redis.svg",
+            "icon": "proyectos/tecnologias/Redis.svg",
             "color": "#FF4438"
           },
           {
             "name": "Celery",
-            "icon": "/proyectos/tecnologias/Celery.svg",
+            "icon": "proyectos/tecnologias/Celery.svg",
             "color": "#37814A"
           }
         ],
         "link": null,
-        "image": "/proyectos/capturas/iBank.webp",
+        "image": "proyectos/capturas/iBank.webp",
         "imageAlt": "Captura de pantalla del proyecto: iBank"
       },
       {
@@ -191,42 +191,42 @@
         "technologies": [
           {
             "name": "React",
-            "icon": "/proyectos/tecnologias/React.svg",
+            "icon": "proyectos/tecnologias/React.svg",
             "color": "#61DAFB"
           },
           {
             "name": "JavaScript",
-            "icon": "/proyectos/tecnologias/JS.svg",
+            "icon": "proyectos/tecnologias/JS.svg",
             "color": "#F7DF1E"
           },
           {
             "name": "HTML",
-            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "icon": "proyectos/tecnologias/HTML5.svg",
             "color": "#E34F26"
           },
           {
             "name": "CSS",
-            "icon": "/proyectos/tecnologias/CSS.svg",
+            "icon": "proyectos/tecnologias/CSS.svg",
             "color": "#663399"
           },
           {
             "name": "Bootstrap",
-            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "icon": "proyectos/tecnologias/Bootstrap.svg",
             "color": "#7952B3"
           },
           {
             "name": "Vite",
-            "icon": "/proyectos/tecnologias/Vite.svg",
+            "icon": "proyectos/tecnologias/Vite.svg",
             "color": "#646CFF"
           },
           {
             "name": "Netlify",
-            "icon": "/proyectos/tecnologias/Netlify.svg",
+            "icon": "proyectos/tecnologias/Netlify.svg",
             "color": "#00C7B7"
           }
         ],
         "link": "https://aplicacion-clima-hoy.netlify.app/",
-        "image": "/proyectos/capturas/WeatherApp_ES.webp",
+        "image": "proyectos/capturas/WeatherApp_ES.webp",
         "imageAlt": "Captura de pantalla del proyecto: Weather App"
       },
       {
@@ -236,37 +236,37 @@
         "technologies": [
           {
             "name": "Vue.js",
-            "icon": "/proyectos/tecnologias/VueJS.svg",
+            "icon": "proyectos/tecnologias/VueJS.svg",
             "color": "#4FC08D"
           },
           {
             "name": "HTML",
-            "icon": "/proyectos/tecnologias/HTML5.svg",
+            "icon": "proyectos/tecnologias/HTML5.svg",
             "color": "#E34F26"
           },
           {
             "name": "JavaScript",
-            "icon": "/proyectos/tecnologias/JS.svg",
+            "icon": "proyectos/tecnologias/JS.svg",
             "color": "#F7DF1E"
           },
           {
             "name": "CSS",
-            "icon": "/proyectos/tecnologias/CSS.svg",
+            "icon": "proyectos/tecnologias/CSS.svg",
             "color": "#663399"
           },
           {
             "name": "Bootstrap",
-            "icon": "/proyectos/tecnologias/Bootstrap.svg",
+            "icon": "proyectos/tecnologias/Bootstrap.svg",
             "color": "#7952B3"
           },
           {
             "name": "Vite",
-            "icon": "/proyectos/tecnologias/Vite.svg",
+            "icon": "proyectos/tecnologias/Vite.svg",
             "color": "#646CFF"
           }
         ],
         "link": null,
-        "image": "/proyectos/capturas/Portfolio_ES.webp",
+        "image": "proyectos/capturas/Portfolio_ES.webp",
         "imageAlt": "Captura de pantalla del proyecto: portafolio"
       }
     ]

@@ -8,6 +8,11 @@ const hoverIdx = reactive({})
 const touchIdx = reactive({})
 const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches
 
+const resolveImg = (path) => {
+    const cleanPath = path.replace(/^\/+/, '')
+    return `${import.meta.env.BASE_URL || '/'}${cleanPath}`
+}
+
 //Función exclusiva de dispositivos móviles, usada para mostrar nombres y colores de íconos
 const handleTechTap = (projIdx, techName) => {
     if (touchIdx[projIdx] === techName) delete touchIdx[projIdx]
@@ -30,8 +35,8 @@ onBeforeUnmount(() => document.removeEventListener('click', handleOutsideTap))
         <div v-for="(proyecto, index) in proyectos" :key="proyecto.id" :id="proyecto.id"
             :class="['project', { 'inverted-project': index % 2 !== 0 }]">
             <div>
-                <img :src="proyecto.image" :alt="proyecto.imageAlt" class="project-img" loading="lazy" width="896"
-                    height="834" style="width: 100%;height: auto;">
+                <img :src="resolveImg(proyecto.image)" :alt="proyecto.imageAlt" class="project-img" loading="lazy"
+                    width="896" height="834" style="width: 100%;height: auto;">
             </div>
             <div>
                 <h3>{{ proyecto.title }}</h3>
