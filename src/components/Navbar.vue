@@ -152,6 +152,10 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
 
 /*Media queries para una mejor visualización en diferentes dispositivos*/
 @media (hover: none) and (pointer: coarse) {
+    .lang-btn {
+        background-color: transparent;
+        color: white;
+    }
 
     .lang-btn:active,
     .navbar-toggler:active {

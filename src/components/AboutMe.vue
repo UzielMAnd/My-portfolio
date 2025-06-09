@@ -5,7 +5,7 @@ import { useI18n } from 'vue-i18n';
 const { locale } = useI18n()
 
 const cvPath = computed(() => {
-    return locale.value === 'es' ? '/CV_ES.pdf' : '/CV_EN.pdf'
+    return locale.value === 'es' ? 'CV_ES.pdf' : 'CV_EN.pdf'
 })
 </script>
 

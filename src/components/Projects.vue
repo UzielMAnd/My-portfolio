@@ -50,6 +50,7 @@ onBeforeUnmount(() => document.removeEventListener('click', handleOutsideTap))
                 <h4>{{ messages[locale].projects.subtitle }}</h4>
                 <div class="technologies">
                     <div v-for="tech in proyecto.technologies" class="tech-wrapper" :key="tech.name"
+                        @touchstart.prevent="handleTechTap(index, tech.name)"
                         @click="isTouchDevice && handleTechTap(index, tech.name)"
                         @mouseover="!isTouchDevice && (hoverIdx[index] = tech.name)"
                         @mouseleave="!isTouchDevice && delete hoverIdx[index]"
