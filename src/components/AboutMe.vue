@@ -1,6 +1,6 @@
 <script setup>
-import { computed } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
 

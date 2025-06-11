@@ -44,6 +44,7 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     transition: background-color 0.3s;
 }
 

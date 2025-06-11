@@ -1,6 +1,6 @@
 <script setup>
-import { computed } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const { locale, messages } = useI18n()
 const habilidades = computed(() => messages.value[locale.value].skills.skillsArray)
@@ -15,7 +15,8 @@ function sliceArray(items) {
     <article class="container carousel-container" id="skills">
         <hr class="section-div">
         <h2>{{ messages[locale].skills.title }}</h2>
-        <div id="skillCarousel" class="carousel slide col-10 col-md-8 col-lg-6 mx-auto" data-bs-ride="carousel">
+        <div id="skillCarousel" class="carousel skill-carousel slide col-10 col-md-8 col-lg-6 mx-auto"
+            data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button v-for="(h, i) in habilidades" :key="i" type="button" data-bs-target="#skillCarousel"
                     :data-bs-slide-to="i" :class="{ active: i === 0 }" :aria-current="i === 0 ? 'true' : undefined"
@@ -67,7 +68,8 @@ h2 {
     width: 66%;
 }
 
-#skillCarousel {
+.skill-carousel {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +107,10 @@ h2 {
     background-color: transparent;
 }
 
+.carousel-inner {
+    margin-bottom: 1.5rem;
+}
+
 .carousel-indicators [data-bs-target] {
     background-color: #727272;
     border: none;
@@ -116,14 +122,14 @@ h2 {
 
 /*Media query para una mejor visualización en diferentes dispositivos*/
 @media (max-width: 576px) {
-    #skillCarousel {
+    .skill-carousel {
         padding: 0;
         height: 450px;
         width: 95%;
     }
 
     h2 {
-        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
     }
 
     article.carousel-container {

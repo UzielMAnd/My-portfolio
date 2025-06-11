@@ -14,7 +14,13 @@ const lastScrollTop = ref(window.pageYOffset)
 const navbarHeight = ref(0)
 const hideThreshold = 10
 
+const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
+
 let bsCollapse = null
+
+function handleToggleClick(event) {
+    if (isTouchDevice) event.currentTarget.blur()
+}
 
 function showNavbar() {
     if (!navbarRef.value) return
@@ -92,7 +98,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
             <span class="navbar-brand mb-0 h1">{{ t('navbar.portfolio') }}</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation" @click="handleToggleClick">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div ref="collapseRef" class="collapse navbar-collapse" id="navbarSupportedContent">

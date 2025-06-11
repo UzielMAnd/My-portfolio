@@ -1,12 +1,13 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, reactive } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { computed, onBeforeUnmount, onMounted, reactive } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const { locale, messages } = useI18n()
 const proyectos = computed(() => messages.value[locale.value].projects.items)
 const hoverIdx = reactive({})
 const touchIdx = reactive({})
-const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches
+
+const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
 
 const resolveImg = (path) => {
     const cleanPath = path.replace(/^\/+/, '')
@@ -15,8 +16,14 @@ const resolveImg = (path) => {
 
 //Función exclusiva de dispositivos móviles, usada para mostrar nombres y colores de íconos
 const handleTechTap = (projIdx, techName) => {
-    if (touchIdx[projIdx] === techName) delete touchIdx[projIdx]
-    else touchIdx[projIdx] = techName
+    if (touchIdx[projIdx] === techName) {
+        delete touchIdx[projIdx]
+        console.log('tap off', projIdx, techName, touchIdx)
+    }
+    else {
+        touchIdx[projIdx] = techName
+        console.log('tap on', projIdx, techName, touchIdx)
+    }
 }
 
 //Similar a la función anterior, usada para ocultar nombres y colores de íconos al tocar en otros lados
@@ -50,7 +57,7 @@ onBeforeUnmount(() => document.removeEventListener('click', handleOutsideTap))
                 <h4>{{ messages[locale].projects.subtitle }}</h4>
                 <div class="technologies">
                     <div v-for="tech in proyecto.technologies" class="tech-wrapper" :key="tech.name"
-                        @touchstart.prevent="handleTechTap(index, tech.name)"
+                        @touchend.prevent="handleTechTap(index, tech.name)"
                         @click="isTouchDevice && handleTechTap(index, tech.name)"
                         @mouseover="!isTouchDevice && (hoverIdx[index] = tech.name)"
                         @mouseleave="!isTouchDevice && delete hoverIdx[index]"
@@ -129,6 +136,10 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 0 100px;
+    min-height: 100px;
+    max-width: 100px;
+    box-sizing: border-box;
 }
 
 .tech-icon {
@@ -146,6 +157,10 @@ article {
     opacity: 0;
     transform: translateY(5px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    width: 100%;
 }
 
 .tech-name-visible {
@@ -181,8 +196,10 @@ article {
     }
 
     .tech-name {
+        white-space: normal;
+        overflow-wrap: break-word;
         max-width: 80px;
-        word-wrap: break-word;
+        word-break: break-word;
     }
 
     .btn-app-test:active {

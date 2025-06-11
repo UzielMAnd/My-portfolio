@@ -1,14 +1,14 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
-import AboutMe from './components/AboutMe.vue';
-import Skills from './components/Skills.vue';
-import Projects from './components/Projects.vue';
-import Footer from './components/Footer.vue';
-import Back2Top from './components/Back2Top.vue';
-import ShareButton from './components/ShareButton.vue';
+import Navbar from './components/Navbar.vue'
+import AboutMe from './components/AboutMe.vue'
+import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
+import Footer from './components/Footer.vue'
+import Back2Top from './components/Back2Top.vue'
+import ShareButton from './components/ShareButton.vue'
 
-import { useI18n } from 'vue-i18n';
-import { watch } from 'vue';
+import { useI18n } from 'vue-i18n'
+import { watch } from 'vue'
 
 const { t, locale } = useI18n()
 
